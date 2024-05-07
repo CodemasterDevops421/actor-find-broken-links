@@ -79,4 +79,3 @@ The output is stored in your key-value store in two formats:
 Discover other SEO tools and resources at [Apify Store](https://apify.com/dainty_screw).
 ```
 
-This version focuses on concise information delivery, integrating your specific requests and removing any irrelevant external contacts while highlighting your provided URLs.
