@@ -14,7 +14,7 @@ Broken Link Checker performs the following tasks:
 - Allows both manual and scheduled checks through a robust scheduling system.
 
 ## How much does it cost to run Broken Links Checker?
-The basic plan costs approximately **USD 0.25 in Apify platform credits per 1,000 scraped results**. For more pricing details, visit our [pricing page](https://apify.com/pricing/actors).
+The basic plan costs approximately **USD 1 in Apify platform credits per 1,000 scraped results**. For more pricing details, visit our [pricing page](https://apify.com/pricing/actors).
 
 ## How to start Broken Links Checker
 To use Broken Links Checker, follow these steps:
