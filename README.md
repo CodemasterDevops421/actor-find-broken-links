@@ -1,10 +1,11 @@
 
+
 ```markdown
 ## What does Broken Links Checker do?
-Our Broken Links Checker is an intuitive SEO tool designed to improve your website's UX and SEO score, enhance your ranking, and prevent link decay.
+Our Broken Links Checker is an intuitive SEO tool designed to enhance your website's UX and SEO score, improve your ranking, and prevent link decay.
 
 ## How does it check for broken links?
-Broken Link Checker performs the following tasks:
+Broken Link Checker performs several tasks:
 - Generates a detailed report identifying either all or only the broken links on a website.
 - Scans single or multiple websites simultaneously.
 - Checks both domains and subdomains.
@@ -27,7 +28,7 @@ To use Broken Links Checker, follow these steps:
 For detailed setup instructions, visit our [step-by-step guide](https://blog.apify.com/step-by-step-guide-to-using-broken-links-checker/).
 
 ## Under the Hood
-The checker begins at a specified URL and crawls all linked pages. It inspects each page for functional links, checking if linked pages load correctly and if they contain specified fragments.
+The checker starts at a specified URL and crawls all linked pages, inspecting each page for functional links, checking if linked pages load correctly and if they contain specified fragments.
 
 ## Input Options
 Configure the actor on the [Apify platform](https://console.apify.com/) with these inputs:
@@ -67,14 +68,25 @@ The output is stored in your key-value store in two formats:
         "fragment": "",
         "fragmentValid": true,
         "crawled": true
-      },
-      ...
+      }
     ]
   }
 ]
 ```
 
-## Explore More Tools
-Discover other SEO tools and resources at [Apify Store](https://apify.com/dainty_screw).
+## Connect With Us
+
+- **YouTube**: [Visit our channel](https://www.youtube.com/channel/UCSglWXooehH8Cy7LYHhXtqA)
+- **Instagram**: [Follow us on Instagram](https://www.instagram.com/quicklifesolutionsofficial/)
+- **AI Newsletter**: [Subscribe to our newsletter](https://sendfox.com/quicklifesolutions)
+- **Free Consultation**: [Book a free consultation call](https://tidycal.com/quicklifesolutions/free-consultation)
+- **More Tools**: [Explore our Apify actors](https://apify.com/dainty_screw)
+
+### Support
+
+- **Discord**: [Raise a Support ticket here](https://discord.gg/2WGj2PDmHb)
+- **Email**: [Contact us](mailto:codemasterdevops@gmail.com)
+
+Discover more SEO tools and resources in the [Apify Store](https://apify.com/store).
 ```
 
