@@ -1,4 +1,3 @@
-Here's your updated `README.md` file tailored to include your Apify actor links and streamlined to fit your specified structure:
 
 ```markdown
 ## What does Broken Links Checker do?
