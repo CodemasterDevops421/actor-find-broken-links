@@ -1,44 +1,43 @@
 
-
 ```markdown
-## What does Broken Links Checker do?
-Our Broken Links Checker is an intuitive SEO tool designed to enhance your website's UX and SEO score, improve your ranking, and prevent link decay.
+# Broken Links Checker
 
-## How does it check for broken links?
-Broken Link Checker performs several tasks:
-- Generates a detailed report identifying either all or only the broken links on a website.
-- Scans single or multiple websites simultaneously.
-- Checks both domains and subdomains.
-- Identifies broken link fragments.
-- Delivers a comprehensive report directly to your email upon completion of the SEO inspection.
-- Allows both manual and scheduled checks through a robust scheduling system.
+## Overview
+Our Broken Links Checker is a sophisticated SEO tool designed to enhance your website's user experience (UX) and search engine optimization (SEO) score. It helps improve your ranking and prevent link decay by identifying and reporting broken links.
 
-## How much does it cost to run Broken Links Checker?
-The basic plan costs approximately **USD 1 in Apify platform credits per 1,000 scraped results**. For more pricing details, visit our [pricing page](https://apify.com/pricing/actors).
+## Features
+- **Comprehensive Reporting**: Generates detailed reports highlighting both broken and functional links.
+- **Multi-Website Capability**: Capable of scanning single or multiple websites simultaneously.
+- **Domain and Subdomain Checks**: Efficiently checks both domains and subdomains for broken link fragments.
+- **Email Reporting**: Sends comprehensive reports directly to your email upon completion.
+- **Flexible Scheduling**: Supports both manual and scheduled checks.
 
-## How to start Broken Links Checker
-To use Broken Links Checker, follow these steps:
-1. Click on *Try for free*.
-2. Enter one or more URLs to start the audit.
-3. Enable the *Save only broken links* option.
-4. Add your email address to receive the SEO report.
-5. Click *Run* and await the results.
-6. Optionally, schedule the tool to perform regular checks.
+## Cost Details
+Running the Broken Links Checker costs approximately **USD 1 in Apify platform credits per 1,000 scraped results**. For additional pricing details, please visit our [pricing page](https://apify.com/pricing/actors).
 
-For detailed setup instructions, visit our [step-by-step guide](https://blog.apify.com/step-by-step-guide-to-using-broken-links-checker/).
+## Getting Started
+Follow these steps to start using the Broken Links Checker:
+1. **Sign Up**: Click on *Try for free* on the Apify platform.
+2. **Input URLs**: Enter one or more URLs to begin the audit.
+3. **Set Preferences**: Enable the *Save only broken links* option.
+4. **Receive Reports**: Add your email address to receive the SEO report.
+5. **Start the Check**: Click *Run* and wait for the results.
+6. **Schedule Checks**: Optionally, set up the tool to perform regular checks.
 
-## Under the Hood
-The checker starts at a specified URL and crawls all linked pages, inspecting each page for functional links, checking if linked pages load correctly and if they contain specified fragments.
+For a detailed setup guide, refer to our [step-by-step tutorial](https://blog.apify.com/step-by-step-guide-to-using-broken-links-checker/).
 
-## Input Options
-Configure the actor on the [Apify platform](https://console.apify.com/) with these inputs:
-- **Website URL**: Starting point for the link check.
-- **Max pages**: Limits the number of pages checked.
-- **Notification emails**: Email to receive notifications.
-- **Save only broken links**: Option to report only broken links.
-- **Crawl subdomains**: Enables checking within subdomains.
+## How It Works
+Starting from a given URL, the checker crawls all linked pages within the site, inspecting each for functional integrity and verifying that linked pages load correctly and contain specified fragments.
 
-### Input Example
+## Configuration
+Set up the Broken Links Checker with the following inputs:
+- **Website URL**: The starting URL for the link check.
+- **Max pages**: Limits the scope of the check.
+- **Notification emails**: Specifies the recipient of completion alerts.
+- **Save only broken links**: Toggles between saving all links or only broken ones.
+- **Crawl subdomains**: Enables the inspection of subdomains.
+
+### Example Input
 ```json
 {
   "baseUrl": "https://blog.apify.com",
@@ -49,12 +48,12 @@ Configure the actor on the [Apify platform](https://console.apify.com/) with the
 }
 ```
 
-## Output
-The output is stored in your key-value store in two formats:
-- `OUTPUT.json`: A JSON report of the results.
-- `OUTPUT.html`: An HTML report for easy reading.
+## Output Details
+Results are stored in two formats in your key-value store:
+- `OUTPUT.json`: JSON formatted report of the findings.
+- `OUTPUT.html`: HTML formatted report for easy review.
 
-### Output Example
+### Example Output
 ```json
 [
   {
@@ -87,6 +86,5 @@ The output is stored in your key-value store in two formats:
 - **Discord**: [Raise a Support ticket here](https://discord.gg/2WGj2PDmHb)
 - **Email**: [Contact us](mailto:codemasterdevops@gmail.com)
 
-Discover more SEO tools and resources in the [Apify Store](https://apify.com/store).
+Explore additional SEO tools in the [Apify Store](https://apify.com/store).
 ```
-
